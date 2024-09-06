@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.font {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ----------------------------------------------------- */
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.ta {
+    width: 600px;
+    height: 45px;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 45px;
+    max-height: 45px;
+    resize: none;
+    font-size: 28px;
+    padding: 10px 10px 8px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+/* ----------------------------------------------------- */
+
+.bloco {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.linha {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.blocos {
+    transition: all 0.2s;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+    
+.blocos:hover {
+    transition: all 0.1s;
+    background-color: rgb(43, 43, 43);
+}
+
+.blocos.active {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* ----------------------------------------------------- */
+
+.github {
+    position: fixed;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    right: 20px;
+    bottom: 20px;
+}

@@ -1,0 +1,55 @@
+.esc {
+    margin-right: 80px;
+}
+
+.f4, .f8 {
+    margin-right: 40px;
+}
+
+.prtsc, .ins, .del, .aleft  {
+    margin-left: 50px;
+}
+
+.aspas {
+    width: 50px;
+}
+
+.backs {
+    width: 150px;
+}
+
+.tab {
+    width: 75px;
+}
+
+.enter {
+    width: 125px;
+}
+
+.caps {
+    width: 110px;
+}
+
+.shiftl {
+    width: 75px;
+}
+
+.shiftr {
+    width: 125px;
+}
+
+.aup {
+    margin-left: 110px;
+}
+
+.aup, .aleft, .adown, .aright {
+    font-size: 10px;
+}
+
+.spc {
+    width: 400px;
+}
+
+.ctrlr {
+    width: 160px;
+}
